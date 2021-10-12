@@ -20,3 +20,7 @@ PREFIX=/usr/local make install
 ```sh
 mantra style.9
 ```
+
+## License
+
+BSD 2-Clause "Simplified" License

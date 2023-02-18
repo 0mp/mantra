@@ -40,7 +40,7 @@ build/mantra: build mantra.in
 
 .PHONY: install
 install:
-	mkdir -p ${DESTDIR}${PREFIX}${SHAREDIR}
+	mkdir -p ${DESTDIR}${PREFIX}${BINDIR}
 	install -m 755 build/mantra ${DESTDIR}${PREFIX}${BINDIR}/mantra
 
 .PHONY: clean
